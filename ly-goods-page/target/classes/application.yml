@@ -16,7 +16,7 @@ spring:
 
 ly:
   thymeleaf:
-    destPath: D:/Program Files/nginx-1.12.2/html/item
+    destPath: D:/RuanJian/nginx-1.12.2/html/item
 eureka:
   client:
     service-url:

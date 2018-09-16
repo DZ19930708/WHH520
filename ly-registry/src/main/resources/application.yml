@@ -1,13 +1,13 @@
 server:
-  port: 10086 # ç«¯å£å·
+  port: 10086 #¶Ë¿ÚºÅ
 spring:
   application:
-    name: ly-registry # æœåŠ¡å
+    name: ly-registry #·şÎñÃû
 eureka:
   client:
-    fetch-registry: false #æ˜¯å¦æ³¨å†Œè‡ªå·±
-    register-with-eureka: false #æ˜¯å¦æ‹‰å–ä¿¡æ¯
+    fetch-registry: false #ÊÇ·ñ×¢²á×Ô¼º
+    register-with-eureka: false #ÊÇ·ñÀ­È¡×Ô¼º
     service-url:
       defaultZone: http://127.0.0.1:${server.port}/eureka
   server:
-    enable-self-preservation: false # å…³é—­è‡ªæˆ‘ä¿æŠ¤
+    enable-self-preservation: false #¹Ø±Õ×ÔÎÒ±£»¤

@@ -20,8 +20,8 @@ eureka:
 ly:
   jwt:
     secret: ly@Login(Auth}*^31)&heiMa% # 登录校验的密钥
-    pubKeyPath: D:/heima/rsa/rsa.pub # 公钥地址
-    priKeyPath: D:/heima/rsa/rsa.pri # 私钥地址
+    pubKeyPath: D:/itcast38/shiZhan/rsa/rsa.pub # 公钥地址
+    priKeyPath: D:/itcast38/shiZhan/rsa/rsa.pri # 私钥地址
     expire: 30 # 过期时间,单位分钟
     cookieMaxAge: 1800 # cookie的过期时间
     cookieName: LY_TOKEN #cookie的name
